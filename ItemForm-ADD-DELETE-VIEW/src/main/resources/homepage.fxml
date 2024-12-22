@@ -8,7 +8,6 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.HomePage">
    <children>
       <ImageView fitHeight="471.0" fitWidth="742.0" layoutX="-123.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
@@ -23,7 +22,7 @@
          </font>
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1ffffc" height="114.0" layoutX="201.0" layoutY="149.0" opacity="0.64" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="214.0" />
-      <Button layoutX="275.0" layoutY="214.0" mnemonicParsing="false" style="-fx-background-radius: 5;" text="View Item" />
+      <Button layoutX="275.0" layoutY="214.0" mnemonicParsing="false" onAction="#viewItemFormOnAction" style="-fx-background-radius: 5;" text="View Item" />
       <Button layoutX="277.0" layoutY="172.0" mnemonicParsing="false" onAction="#addItemFormOnAction" style="-fx-background-radius: 5;" text="Add Item" />
    </children>
 </AnchorPane>
