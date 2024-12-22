@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.Controllers.addItems"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.addItems">
+   <children>
+      <Label alignment="CENTER" layoutX="240.0" layoutY="31.0" text="Add Item">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="107.0" text="Item Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="150.0" text="Item Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="194.0" text="Item Qty :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="238.0" text="Item Price :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="281.0" text="Item Dectription :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="415.0" layoutY="340.0" mnemonicParsing="false" onAction="#addItemOnAction" text="Add Item" />
+      <Button layoutX="498.0" layoutY="340.0" mnemonicParsing="false" onAction="#itemFormColseOnAction" text="Close" />
+      <TextField fx:id="itemId" layoutX="189.0" layoutY="105.0" />
+      <TextField fx:id="itemName" layoutX="189.0" layoutY="148.0" prefHeight="26.0" prefWidth="210.0" />
+      <TextField fx:id="itemQty" layoutX="189.0" layoutY="191.0" prefHeight="26.0" prefWidth="66.0" />
+      <TextField fx:id="itemPrice" layoutX="189.0" layoutY="235.0" prefHeight="26.0" prefWidth="119.0" />
+      <TextField fx:id="itemDesc" layoutX="189.0" layoutY="278.0" prefHeight="26.0" prefWidth="286.0" />
+   </children>
 </AnchorPane>

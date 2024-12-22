@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53ea738d-1885-4c9d-8313-d1c7eeaf23fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DateBase/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Item/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controllers/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controllers/addItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/addItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DateBase/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DateBase/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/addItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/addItem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/homepage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/homepage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,5 +84,30 @@
       <updated>1734802412571</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/DateBase/DBConnection.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Controllers/addItems.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Controllers/addItems.java</url>
+          <line>60</line>
+          <properties class="org.example.Controllers.addItems" method="itemFormColseOnAction">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

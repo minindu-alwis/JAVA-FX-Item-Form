@@ -24,6 +24,6 @@
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1ffffc" height="114.0" layoutX="201.0" layoutY="149.0" opacity="0.64" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="214.0" />
       <Button layoutX="275.0" layoutY="214.0" mnemonicParsing="false" style="-fx-background-radius: 5;" text="View Item" />
-      <Button layoutX="277.0" layoutY="172.0" mnemonicParsing="false" onAction="#addItemOnAction" style="-fx-background-radius: 5;" text="Add Item" />
+      <Button layoutX="277.0" layoutY="172.0" mnemonicParsing="false" onAction="#addItemFormOnAction" style="-fx-background-radius: 5;" text="Add Item" />
    </children>
 </AnchorPane>

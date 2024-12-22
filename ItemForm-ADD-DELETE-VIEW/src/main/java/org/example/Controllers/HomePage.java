@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class HomePage {
-    public void addItemOnAction(ActionEvent actionEvent) {
+    public void addItemFormOnAction(ActionEvent actionEvent) {
 
         Stage stage=new Stage();
         try {
