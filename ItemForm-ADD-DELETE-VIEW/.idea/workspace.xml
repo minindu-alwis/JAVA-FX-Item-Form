@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53ea738d-1885-4c9d-8313-d1c7eeaf23fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/viewItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viewItems.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controllers/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/addItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/addItem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/homepage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/homepage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controllers/viewItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controllers/viewItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/viewItems.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/viewItems.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

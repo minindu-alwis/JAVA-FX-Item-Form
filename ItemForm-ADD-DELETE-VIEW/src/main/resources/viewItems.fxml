@@ -27,5 +27,6 @@
         </columns>
       </TableView>
       <Button layoutX="274.0" layoutY="338.0" mnemonicParsing="false" onAction="#viewItemReloadOnAction" text="Reload" />
+      <Button layoutX="365.0" layoutY="338.0" mnemonicParsing="false" onAction="#deleteItemOnAction" text="Delete" />
    </children>
 </AnchorPane>
