@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controllers.HomePage">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="742.0" layoutX="-123.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/360_F_692752958_SwuOB79oUQn3DGB2qObxX14wqd1G1JU8.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="86.0" stroke="BLACK" strokeType="INSIDE" width="619.0" />
+      <Label alignment="CENTER" layoutX="95.0" layoutY="14.0" prefHeight="50.0" prefWidth="417.0" text="Item Managment">
+         <font>
+            <Font name="Century Gothic Bold" size="43.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1ffffc" height="114.0" layoutX="201.0" layoutY="149.0" opacity="0.64" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="214.0" />
+      <Button layoutX="275.0" layoutY="214.0" mnemonicParsing="false" style="-fx-background-radius: 5;" text="View Item" />
+      <Button layoutX="277.0" layoutY="172.0" mnemonicParsing="false" onAction="#addItemOnAction" style="-fx-background-radius: 5;" text="Add Item" />
+   </children>
+</AnchorPane>
