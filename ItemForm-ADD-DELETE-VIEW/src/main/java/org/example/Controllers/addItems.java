@@ -21,14 +21,12 @@ public class addItems {
     }
 
     public void addItemOnAction(ActionEvent actionEvent) {
-
-        String itemidd = "ITM" + String.format("%04d", idCount);
-        String itemNamee=itemName.getText();
-        Integer qty= Integer.valueOf(itemQty.getText());
-        Double itemPricee= Double.valueOf(itemPrice.getText());
-        String itemDecription=itemDesc.getText();
-
-        Item t1=new Item(itemidd,itemNamee,qty,itemPricee,itemDecription);
+        Item t1=new Item("ITM" + String.format("%04d", idCount),
+                itemName.getText(),
+                Integer.valueOf(itemQty.getText()),
+                Double.valueOf(itemPrice.getText()),
+                itemDesc.getText())
+                ;
 
         boolean isAdded=DBConnection.getInstance().getConnection().add(t1);
 

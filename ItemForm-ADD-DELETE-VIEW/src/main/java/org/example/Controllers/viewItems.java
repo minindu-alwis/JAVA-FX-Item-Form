@@ -48,6 +48,5 @@ public class viewItems {
         DBConnection.getInstance().getConnection().remove(selectedItem);
         loadTable();
         System.out.println(DBConnection.getInstance().getConnection().toString());
-
     }
 }
