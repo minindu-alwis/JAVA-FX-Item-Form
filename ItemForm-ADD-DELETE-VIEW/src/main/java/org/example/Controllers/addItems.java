@@ -1,6 +1,7 @@
 package org.example.Controllers;
 
 import javafx.event.ActionEvent;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import org.example.DateBase.DBConnection;
@@ -39,6 +40,7 @@ public class addItems {
         idCount++;
         updateNextItemId();
         clearInputFields();
+        alterbox();
         System.out.println(DBConnection.getInstance().getConnection().toString());
 
     }
@@ -61,4 +63,12 @@ public class addItems {
         stage.close();
     }
 
+    public void alterbox(){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Alert Box");
+        alert.setHeaderText(null);
+        alert.setContentText("Showing an Alert in JavaFX!");
+        alert.show();
+    }
+    
 }
