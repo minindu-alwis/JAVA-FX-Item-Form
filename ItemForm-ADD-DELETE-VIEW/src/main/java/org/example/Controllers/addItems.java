@@ -67,8 +67,8 @@ public class addItems {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Alert Box");
         alert.setHeaderText(null);
-        alert.setContentText("Showing an Alert in JavaFX!");
+        alert.setContentText("Item Added SuccsessFully Added !");
         alert.show();
     }
-    
+
 }
